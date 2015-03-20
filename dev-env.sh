@@ -28,6 +28,13 @@ git config --global \
 
 
 
+# ssh config
+ssh-keygen -t rsa -C "jangmaghuyop@gmail.com"
+
+# register generated keys to github
+# https://help.github.com/articles/generating-ssh-keys/
+
+
 # teamviewer
 wget http://download.teamviewer.com/download/teamviewer_linux.deb
 sudo dpkg -i teamviewer_linux.deb
@@ -67,7 +74,7 @@ sudo apt-get install terminator
 
 
 
-# copy paste terminal
+# copy paste terminator
 subl ~/.config/terminator/config
 [keybindings]
 	paste = <Control>v

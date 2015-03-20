@@ -1,33 +1,38 @@
-# download ubuntu os
+# Download ubuntu os
+```
 wget http://releases.ubuntu.com/14.04/ubuntu-14.04-desktop-amd64.iso.torrent
+```
 
 
 
-# unetootin
-# for ubuntu
+# Unetbootin
+For ubuntu
+```
 sudo apt-get install -y unetbootin
-# for windows
+```
+For windows
+```
 wget http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
+```
 
-# the files system of the flash drive should be fat32
-# execute unetbootin and select image and find the ubuntu image
-
-
-
-
-# before booting in computer
-# ensure usb boot feature is enabled in bios
-# ensure eufi in boot is enabled in bios
+- The files system of the flash drive should be FAT32.
+- Execute unetbootin and select image and find the ubuntu image.
 
 
 
-# after booting a bootloader will appear
-# select live mode
-# test all output and input devices if working
-# click install in desktop
+# Before booting the computer
+- Ensure usb boot feature is enabled in BIOS.
+- Ensure EUFI in boot is enabled in BIOS.
 
 
 
-# follow installation process
-# ensure only one partition on the disk in gparted
-# commit to settings and install
+# After booting a bootloader will appear
+1. Select live mode.
+2. Test all peripheral devices if working.
+3. Click install icon found in the desktop.
+
+
+
+# Follow installation process
+- Ensure only one partition on the disk in gparted.
+- Commit to settings and install.
