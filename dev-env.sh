@@ -8,21 +8,6 @@ sudo apt-get upgrade
 
 
 
-# download ubuntu os
-wget http://releases.ubuntu.com/14.04/ubuntu-14.04-desktop-amd64.iso.torrent
-
-
-
-# unetootin
-# for ubuntu
-sudo apt-get install -y unetbootin
-# for windows
-wget http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
-
-# execute unetbootin and select image and find the ubuntu image
-
-
-
 # select, download and install programming font of choice
 # http://programmingfonts.org/
 
