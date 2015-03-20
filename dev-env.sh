@@ -1,0 +1,133 @@
+#!/bin/bash
+
+
+
+# update and upgrade
+sudo apt-get update
+sudo apt-get upgrade
+
+
+
+# download ubuntu os
+wget http://releases.ubuntu.com/14.04/ubuntu-14.04-desktop-amd64.iso.torrent
+
+
+
+# unetootin
+# for ubuntu
+sudo apt-get install -y unetbootin
+# for windows
+wget http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
+
+# execute unetbootin and select image and find the ubuntu image
+
+
+
+# select, download and install programming font of choice
+# http://programmingfonts.org/
+
+
+
+# install git
+sudo apt-get install git
+
+# git configuration
+git config --global \
+	user.name "Jan Maghuyop" \
+	user.email jangmaghuyop@gmail.com \
+	color.ui auto \
+	color.branch auto \
+	color.diff auto \
+	color.status.auto
+	credential.helper cache
+
+
+
+# teamviewer
+wget http://download.teamviewer.com/download/teamviewer_linux.deb
+sudo dpkg -i teamviewer_linux.deb
+sudo pt-get install -f
+sudo teamviewer --daemon disable
+
+
+
+# virtualbox
+sudo apt-get install dkms
+sudo sh -c 'echo "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" >> /etc/apt/sources.list.d/virtualbox.list'
+wget -q http://download.virtualbox.org/virtualbox/debian/oracle_vbox.asc -O- | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install virtualbox-4.3
+
+
+
+# vagrant
+wget https://dl.bintray.com/mitchellh/vagrant/vagrant_1.7.2_x86_64.deb
+sudo dpkg -i vagrant_1.7.2_x86_64.deb
+
+
+
+# sublime text 3 install
+sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+
+# install package manager in sublime text 3
+# `Ctrl ~` and paste code below and wait
+import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+
+
+# install terminator
+sudo apt-get install terminator
+
+
+
+# copy paste terminal
+subl ~/.config/terminator/config
+[keybindings]
+	paste = <Control>v
+	copy = <Control>c
+
+
+
+# install hipchat
+sudo su
+echo "deb http://downloads.hipchat.com/linux/apt stable main" > \
+	  /etc/apt/sources.list.d/atlassian-hipchat.list
+wget -O - https://www.hipchat.com/keys/hipchat-linux.key | apt-key add -
+apt-get update
+apt-get install hipchat
+
+
+
+# install dropbox
+sudo apt-get install nautilus-dropbox
+ln -s /home/jan/automata /home/jan/Dropbox
+
+
+
+# install postgres db server
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+sudo apt-get install wget ca-certificates
+wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install postgresql-9.4
+
+# open postgresql
+sudo -u postgres psql postgres
+
+
+
+# install nodejs
+sudo apt-get install build-essential libssl-dev
+curl https://raw.githubusercontent.com/creationix/nvm/v0.20.0/install.sh | sh
+echo "source ~/.nvm/nvm.sh" >> ~/.bashrc
+nvm ls-remote
+nvm install 0.11.14
+nvm alias default v0.11.14
+
+
+
+# install bower
+npm install -g bower
