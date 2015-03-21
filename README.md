@@ -1,30 +1,31 @@
-# Prepare
+# Development Environment Instructions
+
+
 
 ## Download ubuntu os
-```
-wget http://releases.ubuntu.com/14.04/ubuntu-14.04-desktop-amd64.iso.torrent
-```
+- Copy and paste the url below to your internet browser and hit enter.
+- http://releases.ubuntu.com/14.04/ubuntu-14.04-desktop-amd64.iso.torrent
+- Using a torrent client open and download the torrent file.
 
 
 
 ## Unetbootin
-For ubuntu
+For ubuntu, open the terminal and paste the code below.
 ```
 sudo apt-get install -y unetbootin
 ```
-For windows
-```
-wget http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
-```
+### For windows
+http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
+> Copy and paste this on your internet browser
 
-- The files system of the flash drive should be FAT32.
+- The file system of the flash drive should be FAT32.
 - Execute unetbootin and select image and find the ubuntu image.
 
 
 
 ## Before booting the computer
 - Ensure usb boot feature is enabled in BIOS.
-- Ensure EUFI in boot is enabled in BIOS.
+- Ensure EUFI feature in boot is enabled in BIOS.
 
 
 
@@ -40,7 +41,8 @@ wget http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
 - Commit to settings and install.
 
 
+
 ## Install essential programs
-- Open a terminal
+- Open a terminal.
 - Using a text editor open install.sh
-- Copy and paste commands per program into the terminal
+- Copy and paste commands per program into the terminal and hit enter.
