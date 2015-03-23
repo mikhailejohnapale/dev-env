@@ -2,24 +2,28 @@
 
 
 
-## Download ubuntu os
-- Copy and paste the url below to your internet browser and hit enter.
+## Download ubuntu OS
+- Click the link below.
 - http://releases.ubuntu.com/14.04/ubuntu-14.04-desktop-amd64.iso.torrent
 - Using a torrent client open and download the torrent file.
 
 
 
 ## Unetbootin
-For ubuntu, open the terminal and paste the code below.
+### For ubuntu
+
+open the terminal and paste the code below.
+
 ```
 sudo apt-get install -y unetbootin
 ```
-### For windows
-http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
-> Copy and paste this on your internet browser
 
+### For windows
+- Click the link below.
+- http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
 - The file system of the flash drive should be FAT32.
 - Execute unetbootin and select image and find the ubuntu image.
+- Click Ok, If prompted proceed anyway.
 
 
 
@@ -30,13 +34,14 @@ http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
 
 
 ## After booting a bootloader will appear
-1. Select live mode.
-2. Test all peripheral devices if working.
-3. Click install icon found in the desktop.
+- Select live mode.
+- Test all peripheral devices is working.
+- Click install icon found in the desktop.
 
 
 
-## Follow installation process
+## Delete and Partition Disk
+- Delete previous partitions in the disk using gparted.
 - Ensure only one partition on the disk in gparted.
 - Commit to settings and install.
 
