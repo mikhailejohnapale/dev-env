@@ -38,7 +38,7 @@ ssh-keygen -t rsa -C "jangmaghuyop@gmail.com"
 # teamviewer
 wget http://download.teamviewer.com/download/teamviewer_linux.deb
 sudo dpkg -i teamviewer_linux.deb
-sudo pt-get install -f
+sudo apt-get install -f
 sudo teamviewer --daemon disable
 
 
