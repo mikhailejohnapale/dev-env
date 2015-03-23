@@ -118,6 +118,7 @@ sudo -u postgres psql postgres
 sudo apt-get install build-essential libssl-dev curl
 curl https://raw.githubusercontent.com/creationix/nvm/v0.20.0/install.sh | sh
 echo "source ~/.nvm/nvm.sh" >> ~/.bashrc
+# restart your terminal
 nvm ls-remote
 nvm install 0.11.14
 nvm alias default v0.11.14
