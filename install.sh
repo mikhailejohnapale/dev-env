@@ -126,3 +126,9 @@ nvm alias default v0.11.14
 
 # install bower
 npm install -g bower
+
+
+
+# install z
+cd ~
+git clone git@github.com:rupa/z.git .bin/z/
