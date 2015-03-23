@@ -12,7 +12,7 @@
 ## Unetbootin
 ### For ubuntu
 
-open the terminal and paste the code below.
+Open the terminal and paste the command below.
 
 ```
 sudo apt-get install -y unetbootin
@@ -49,5 +49,7 @@ sudo apt-get install -y unetbootin
 
 ## Install essential programs
 - Open a terminal.
+- Click and save link below.
+- https://raw.githubusercontent.com/janmaghuyop/dev-env/master/install.sh
 - Using a text editor open install.sh
 - Copy and paste commands per program into the terminal and hit enter.
