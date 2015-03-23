@@ -35,6 +35,7 @@ ssh-keygen -t rsa -C "jangmaghuyop@gmail.com"
 # https://help.github.com/articles/generating-ssh-keys/
 
 
+
 # teamviewer
 wget http://download.teamviewer.com/download/teamviewer_linux.deb
 sudo dpkg -i teamviewer_linux.deb
@@ -60,7 +61,6 @@ sudo dpkg -i vagrant_1.7.2_x86_64.deb
 
 # install dropbox
 sudo apt-get install nautilus-dropbox
-ln -s /home/jan/automata /home/jan/Dropbox
 
 
 
@@ -120,8 +120,8 @@ curl https://raw.githubusercontent.com/creationix/nvm/v0.20.0/install.sh | sh
 echo "source ~/.nvm/nvm.sh" >> ~/.bashrc
 # restart your terminal
 nvm ls-remote
-nvm install 0.11.14
-nvm alias default v0.11.14
+nvm install 0.12.0
+nvm alias default v0.12.0
 
 
 
