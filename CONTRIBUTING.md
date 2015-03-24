@@ -5,15 +5,13 @@
 2. In the top-right corner of the page, click Fork.
 
 ## Clone the forked repository
-1. On GitHub, navigate to your fork of the Spoon-Knife repository.
+1. On GitHub, navigate to your fork.
 2. In the right sidebar of your fork's repository page, click to copy the clone URL for your fork.
-3. Open Terminal and type command below.
+3. Open Terminal and type command below and hit enter.
 
 ```
 git clone git@github.com:janmaghuyop/dev-env.git
 ```
-
-4. Press Enter. Your local clone will be created.
 
 ## Contribute
 1. Do your work.
@@ -44,4 +42,3 @@ git push origin master
 4. Click the Compare & review button.
 5. Review the pull request.
 6. press Create pull request button.
-
