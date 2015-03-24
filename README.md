@@ -57,3 +57,9 @@ sudo apt-get install -y unetbootin
 - https://raw.githubusercontent.com/janmaghuyop/dev-env/master/install.sh
 - Using a text editor open install.sh
 - Copy and paste commands per program into the terminal and hit enter.
+
+
+
+## Register essential accounts
+Open in a new tab the link below.
+https://github.com/janmaghuyop/dev-env/blob/master/accounts.md

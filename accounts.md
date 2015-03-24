@@ -7,11 +7,11 @@
 5. Gmail should be firstnamelastname@gmail.com
 
 # Service Providers
-https://mail.google.com
-https://www.facebook.com
-https://github.com
-https://bitbucket.org
-https://www.hipchat.com
-https://taiga.io
-https://www.dropbox.com/
-https://www.heroku.com/
+- https://mail.google.com
+- https://www.facebook.com
+- https://github.com
+- https://bitbucket.org
+- https://www.hipchat.com
+- https://taiga.io
+- https://www.dropbox.com/
+- https://www.heroku.com/
