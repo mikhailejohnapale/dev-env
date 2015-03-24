@@ -40,10 +40,14 @@ sudo apt-get install -y unetbootin
 
 
 
-## Delete and Partition Disk
+## Install Ubuntu OS
+### Delete and Partition Disk
 - Delete previous partitions in the disk using gparted.
 - Ensure only one partition on the disk in gparted.
 - Commit to settings and install.
+
+## Install References
+- http://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
 
 
