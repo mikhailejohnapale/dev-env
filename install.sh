@@ -133,3 +133,11 @@ npm install -g bower
 # install z
 cd ~
 git clone git@github.com:rupa/z.git .bin/z/
+
+
+
+# install flash
+# download latest flash plugin in adobe website in tar.gz format
+gunzip install_flash_player_11_linux.x86_64.tar.gz
+tar -xvf install_flash_player_11_linux.x86_64.tar
+sudo cp libflashplayer.so /usr/lib/firefox/browser/plugins
