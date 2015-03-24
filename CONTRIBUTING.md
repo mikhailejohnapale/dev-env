@@ -7,16 +7,14 @@
 ## Clone the forked repository
 1. On GitHub, navigate to your fork.
 2. In the right sidebar of your fork's repository page, click to copy the clone URL for your fork.
-3. Open Terminal and type command below and hit enter.
+3. Open Terminal and type the command below and hit enter.
 
 ```
 git clone git@github.com:janmaghuyop/dev-env.git
 ```
 
 ## Contribute
-1. Do your work.
-2. Open terminal and type command below.
-
+Open terminal and type the commands below.
 ```
 git branch contribute-branch-name
 git checkout contribute-branch-name
