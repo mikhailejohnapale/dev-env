@@ -61,5 +61,5 @@ sudo apt-get install -y unetbootin
 
 
 ## Register essential accounts
-Open in a new tab the link below.
-https://github.com/janmaghuyop/dev-env/blob/master/accounts.md
+- Open in a new tab the link below.
+- https://github.com/janmaghuyop/dev-env/blob/master/accounts.md
