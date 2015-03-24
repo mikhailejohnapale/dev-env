@@ -141,3 +141,20 @@ git clone git@github.com:rupa/z.git .bin/z/
 gunzip install_flash_player_11_linux.x86_64.tar.gz
 tar -xvf install_flash_player_11_linux.x86_64.tar
 sudo cp libflashplayer.so /usr/lib/firefox/browser/plugins
+
+
+
+# python dependencies
+sudo apt-get install python3-dev
+
+
+
+# install pip3
+cd ~/Downloads
+wget https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+
+
+
+# install virtualenv in user
+pip3 install --user virtualenv
