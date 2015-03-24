@@ -73,6 +73,7 @@ sudo dpkg -i atom-amd64.deb
 # atom packages
 apm install atom-terminal
 apm install set-syntax
+apm install autocomplete-plus
 
 
 
