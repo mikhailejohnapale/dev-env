@@ -6,34 +6,53 @@
 
 ## Clone the forked repository
 1. On GitHub, navigate to your fork.
-2. In the right sidebar of your fork's repository page, click to copy the clone URL for your fork.
-3. Open Terminal and type the command below and hit enter.
+2. In the right side of your fork's repository page, copy the clone URL.
+3. Open Terminal and paste the command below and hit enter.
 
 ```
-git clone git@github.com:janmaghuyop/dev-env.git
+cd ~/Downloads
+git clone git@github.com:username/dev-env.git
+cd dev-env
 ```
 
-## Contribute
+## Set Upstream URL
+Open Terminal and paste the command below and hit enter.
+```
+git add remote upstream git@github.com:janmaghuyop/dev-env.git
+```
+
+## Create a feature branch.
 Open terminal and type the commands below.
 ```
-git branch contribute-branch-name
-git checkout contribute-branch-name
-# Do your work here
-git add --all
-# see changes you've made
-git status
-git diff
-# commit if final
-git commit -m "your detailed message"
-# switch back to master if your tests pass
-git checkout master
-# update master branch with your changes
-git merge contribute-branch-name
-# send your changes to the remote repository
-git push origin master
+git branch feature-branch-name
+git checkout feature-branch-name
 ```
 
-## File a pull request
+## Make your contribution in the feature branch
+
+
+## Check changes
+Open terminal and type the commands below.
+```
+# if any file(s) is added
+git status
+# changes inside the files
+git diff
+```
+
+## Commit your changes
+Open terminal and paste the commands below.
+```
+git commit -am "Brief change description"
+```
+
+## Send your changes to your remote repository
+Open terminal and paste the commands below.
+```
+git push origin feature-branch-name
+```
+
+## File a pull request.
 1. Navigate to your repository.
 2. press the Pull Request button.
 3. Switch to your branch.
