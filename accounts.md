@@ -17,3 +17,4 @@
 - https://www.heroku.com/
 - http://stackoverflow.com/
 - http://ubuntuforums.org/
+- https://en.gravatar.com/
