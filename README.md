@@ -9,7 +9,14 @@
 
 
 
-## Unetbootin
+## Prepare flash drive
+- Secure a 2GB or greater capacity flash drive.
+- Format the flash drive using FAT32 file system.
+- Insert the flash drive to the computer.
+
+
+
+## Download and Install Unetbootin
 ### For ubuntu
 
 Open the terminal and paste the command below.
@@ -21,34 +28,51 @@ sudo apt-get install -y unetbootin
 ### For windows
 - Click the link below.
 - http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
-- The file system of the flash drive should be FAT32.
-- Execute unetbootin and select image and find the ubuntu image.
-- Click Ok, If prompted proceed anyway.
+- Wait for the download to finish.
 
 
 
-## Before booting the computer
-- Ensure usb boot feature is enabled in BIOS.
+## Make the flash drive bootable
+- Click or execute unetbootin.
+- Select disk image.
+- Press `...` button.
+- Find and click the ubuntu os image.
+- Press Open button in the dialog box.
+- Click Ok button in unetbootin.
+- Wait for the process to complete.
+- Reboot when prompted.
+
+
+
+## BIOS configuration
+- Enter BIOS mode before the previous OS will boot.
+- Ensure USB boot feature is enabled in BIOS.
 - Ensure EUFI feature in boot is enabled in BIOS.
+- Save changes and reboot.
 
 
 
-## After booting a bootloader will appear
-- Select live mode.
-- Test all peripheral devices is working.
+## After booting
+- Select live mode in the bootloader menu.
+- Wait for ubuntu to load competely
+- Test all peripheral devices are working.
 - Click install icon found in the desktop.
 
 
 
-## Install Ubuntu OS
+## Ubuntu OS installation
 ### Delete and Partition Disk
+- In `dash` type gparted and click gparted.
 - Delete previous partitions in the disk using gparted.
 - Ensure only one partition on the disk in gparted.
+- Use the references below to install ubuntu.
 - Commit to settings and install.
+- Restart if prompted.
 
-
-## Install References
+### References
 - http://www.ubuntu.com/download/desktop/install-ubuntu-desktop
+- http://www.wikihow.com/Install-Ubuntu-Linux
+- http://www.dedoimedo.com/computers/gparted.html
 
 
 
@@ -65,6 +89,17 @@ sudo apt-get install -y unetbootin
 - Open in a new tab the link below.
 - https://github.com/janmaghuyop/dev-env/blob/master/accounts.md
 - Follow instructions from the link above.
+
+
+
+## Fork essential repositories
+Login to your Github account at https://github.com. Fork the links below.
+- https://github.com/janmaghuyop/dev-env
+- https://github.com/janmaghuyop/base-repo
+- https://github.com/janmaghuyop/ubuntu-tweak
+- https://github.com/janmaghuyop/sample-repo
+- https://github.com/janmaghuyop/dotfiles
+- https://github.com/janmaghuyop/oh-my-zsh
 
 
 
