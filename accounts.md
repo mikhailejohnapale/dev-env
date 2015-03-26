@@ -18,3 +18,4 @@
 - http://ubuntuforums.org/
 - https://en.gravatar.com/
 - https://slack.com/
+- http://www.chikka.com/
