@@ -65,3 +65,8 @@ sudo apt-get install -y unetbootin
 - Open in a new tab the link below.
 - https://github.com/janmaghuyop/dev-env/blob/master/accounts.md
 - Follow instructions from the link above.
+
+
+
+## Contributing
+https://github.com/janmaghuyop/dev-env/blob/master/CONTRIBUTING.md

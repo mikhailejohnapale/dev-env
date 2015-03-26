@@ -36,6 +36,7 @@ ssh-keygen -t rsa -C "jangmaghuyop@gmail.com"
 
 # teamviewer
 wget http://download.teamviewer.com/download/teamviewer_linux.deb
+# The command below will eventually fail, proceed anyway
 sudo dpkg -i teamviewer_linux.deb
 # install dependencies
 sudo apt-get install -f
