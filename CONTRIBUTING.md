@@ -18,7 +18,7 @@ cd dev-env
 ## Set Upstream URL
 Open Terminal and paste the command below and hit enter.
 ```
-git add remote upstream git@github.com:janmaghuyop/dev-env.git
+git remote add upstream git@github.com:janmaghuyop/dev-env.git
 ```
 
 ## Create a feature branch.
