@@ -24,6 +24,8 @@ git config --global color.branch auto
 git config --global color.diff auto
 git config --global color.status.auto
 
+# git aliases
+echo ""alias glog="git log --graph --pretty=format:'%C(blue)%h%Creset - %C(yellow)%s%Creset %C(green)(%cr)%Creset <%aN>'""" >> ~/.bashrc
 
 
 # ssh config
