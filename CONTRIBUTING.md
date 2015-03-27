@@ -62,7 +62,6 @@ git push origin branch-name
 ## 10. Create a pull request.
 1. Navigate to your repository.
 2. Switch to your feature branch.
-3. press the Pull Request button.
-4. Click the Compare & review button.
-5. Review the pull request.
-6. Press create pull request button.
+3. Click the Compare & review button.
+4. Review the pull request.
+5. Press create pull request button.
