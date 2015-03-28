@@ -161,6 +161,6 @@ pip3 install --user virtualenv
 
 
 # make python virtualenv and start with shell
-~/./local/bin/virtualenv ~/penv
+~/.local/bin/virtualenv ~/penv
 echo "source ~/penv/bin/activate" >> ~/.bashrc
 # restart shell
