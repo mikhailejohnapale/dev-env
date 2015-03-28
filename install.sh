@@ -157,3 +157,10 @@ sudo python3 get-pip.py
 
 # python virtualenv in user
 pip3 install --user virtualenv
+
+
+
+# make python virtualenv and start with shell
+~/./local/bin/virtualenv ~/penv
+echo "source ~/penv/bin/activate" >> ~/.bashrc
+# restart shell
