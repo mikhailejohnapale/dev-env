@@ -18,13 +18,11 @@
 
 ## Download and Install Unetbootin
 ### For ubuntu
-
 Open the terminal and paste the command below.
 
 ```
 sudo apt-get install -y unetbootin
 ```
-
 ### For windows
 - Click the link below.
 - http://unetbootin.sourceforge.net/unetbootin-windows-latest.exe
@@ -73,6 +71,31 @@ sudo apt-get install -y unetbootin
 - http://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 - http://www.wikihow.com/Install-Ubuntu-Linux
 - http://www.dedoimedo.com/computers/gparted.html
+
+
+
+## Programming font
+- Open in a new tab http://programmingfonts.org
+- Download and install programming font of choice.
+
+
+
+## Update and upgrade
+Open the terminal and paste the command below.
+```
+sudo apt-get update
+sudo apt-get upgrade -y
+```
+
+
+## Linux commandline commands
+Open the following links below and study.
+- http://cli.learncodethehardway.org/book
+- http://linuxcommand.org
+- http://ss64.com/bash
+- http://www.commandlinefu.com
+- http://www.ee.surrey.ac.uk/Teaching/Unix
+- http://ryanstutorials.net/linuxtutorial/commandline.php
 
 
 

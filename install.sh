@@ -2,17 +2,6 @@
 
 
 
-# update and upgrade
-sudo apt-get update
-sudo apt-get -y upgrade
-
-
-
-# visit, select, download and install programming font of choice
-# http://programmingfonts.org/
-
-
-
 # git
 sudo apt-get install -y git
 
@@ -26,6 +15,7 @@ git config --global color.status.auto
 
 # git aliases
 echo ""alias glog="git log --graph --pretty=format:'%C(blue)%h%Creset - %C(yellow)%s%Creset %C(green)(%cr)%Creset <%aN>'""" >> ~/.bashrc
+
 
 
 # ssh config
@@ -76,6 +66,8 @@ sudo dpkg -i atom-amd64.deb
 apm install atom-terminal
 apm install set-syntax
 apm install autocomplete-plus
+apm install emmet
+apm install atom-alignment
 
 
 
@@ -94,6 +86,7 @@ subl ~/.config/terminator/config
 sudo apt-add-repository -y ppa:rael-gc/scudcloud
 sudo apt-get update
 sudo apt-get install -y scudcloud
+sudo apt-get install hunspell-en-us
 
 
 
