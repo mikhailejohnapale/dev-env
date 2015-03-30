@@ -13,7 +13,7 @@ git config --global color.branch auto
 git config --global color.diff auto
 git config --global color.status.auto
 
-# git aliases, append line below
+# git aliases, append line below to .bashrc, restart shell
 alias glog="git log --graph --pretty=format:'%C(blue)%h%Creset - %C(yellow)%s%Creset %C(green)(%cr)%Creset <%aN>'"
 
 
