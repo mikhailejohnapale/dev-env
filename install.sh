@@ -68,6 +68,11 @@ apm install set-syntax
 apm install autocomplete-plus
 apm install emmet
 apm install atom-alignment
+# python linter
+apm install linter linter-pep8
+pip install pep8
+# add config file
+# pep8ExecutePath: /penv/path/
 
 
 
