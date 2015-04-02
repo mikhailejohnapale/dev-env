@@ -55,27 +55,6 @@ sudo dpkg -i vagrant_1.7.2_x86_64.deb
 sudo apt-get install -y nautilus-dropbox
 
 
-
-# atom
-cd ~/Downloads
-# go to https://atom.io/
-# download latest deb release
-sudo dpkg -i atom-amd64.deb
-
-# atom packages
-apm install atom-terminal
-apm install set-syntax
-apm install autocomplete-plus
-apm install emmet
-apm install atom-alignment
-# python linter
-apm install linter linter-pep8
-pip install pep8
-# add config file
-# pep8ExecutePath: /penv/path/
-apm install tabs-to-spaces
-
-
 # terminator
 sudo apt-get install -y terminator
 
@@ -162,3 +141,24 @@ pip3 install --user virtualenv
 ~/.local/bin/virtualenv ~/penv
 echo "source ~/penv/bin/activate" >> ~/.bashrc
 # restart shell
+
+
+
+# atom
+cd ~/Downloads
+# go to https://atom.io/
+# download latest deb release
+sudo dpkg -i atom-amd64.deb
+
+# atom packages
+apm install atom-terminal
+apm install set-syntax
+apm install autocomplete-plus
+apm install emmet
+apm install atom-alignment
+# python linter
+apm install linter linter-pep8
+pip install pep8
+# add config file
+# pep8ExecutePath: /penv/path/
+apm install tabs-to-spaces
