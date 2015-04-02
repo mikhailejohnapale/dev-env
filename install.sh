@@ -73,7 +73,7 @@ apm install linter linter-pep8
 pip install pep8
 # add config file
 # pep8ExecutePath: /penv/path/
-
+apm install tabs-to-spaces
 
 
 # terminator
