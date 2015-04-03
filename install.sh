@@ -2,24 +2,57 @@
 
 
 
+# atom
+cd ~/Downloads
+# go to https://atom.io/
+# download latest deb release
+sudo dpkg -i atom-amd64.deb
+
+# atom packages
+apm install atom-terminal
+apm install set-syntax
+apm install autocomplete-plus
+apm install emmet
+apm install atom-alignment
+# python linter
+apm install linter linter-pep8
+pip install pep8
+# add config file
+# pep8ExecutePath: /penv/path/
+apm install tabs-to-spaces
+
+
+
+# zsh, oh-my-zsh
+# Login to your github account
+# Fork, https://raw.github.com/rodelrebucas/oh-my-zsh
+sudo apt-get install zsh
+cd
+curl -L https://raw.github.com/rodelrebucas/oh-my-zsh/master/tools/install.sh | sh
+chsh -s /bin/zsh
+atom ~/.zshrc
+# change ZSH_THEME="rodelys"
+
+
+
 # git
 sudo apt-get install -y git
 
 # git configuration
-git config --global user.name "Jan Maghuyop"
-git config --global user.email jangmaghuyop@gmail.com
+git config --global user.name "Firstname Lastname"
+git config --global user.email firstnamelastname@gmail.com
 git config --global color.ui auto
 git config --global color.branch auto
 git config --global color.diff auto
 git config --global color.status.auto
 
 # git aliases for git log
-echo 'alias glog="git log --graph --pretty=format:'\''%C(blue)%h%Creset - %C(yellow)%s%Creset %C(green)(%cr)%Creset <%aN>'\''"' >> ~/.bashrc
+echo 'alias glog="git log --graph --pretty=format:'\''%C(blue)%h%Creset - %C(yellow)%s%Creset %C(green)(%cr)%Creset <%aN>'\''"' >> ~/.zshrc
 
 
 
 # ssh config
-ssh-keygen -t rsa -C "jangmaghuyop@gmail.com"
+ssh-keygen -t rsa -C "firstnamelastname@gmail.com"
 
 # register generated keys to github, bitbucket, et. al.
 # https://help.github.com/articles/generating-ssh-keys/
@@ -55,11 +88,32 @@ sudo dpkg -i vagrant_1.7.2_x86_64.deb
 sudo apt-get install -y nautilus-dropbox
 
 
+
+# google drive
+# https://www.thefanclub.co.za/how-to/ubuntu-google-drive-client-grive-and-grive-tools
+sudo add-apt-repository ppa:thefanclub/grive-tools
+sudo apt-get update
+sudo apt-get install grive-tools
+# Start the application from the dash by searching for Grive Setup
+# Once Grive is installed, you will be asked to give Grive permission to access your Google Drive.
+# When you click Next a browser window should open and present you with Google Login page.
+# Log in to your Google Account.
+# You will then be asked to give Grive permission to access you Google Drive.
+# Click Accept to continue.
+# You will then be give a Google authentication code to copy and paste into the Grive Setup box provided.
+# Copy the code from your browser and paste in the Grive Setup box.
+# When the first sync is complete the installer will quit.
+# After installation you will find a Google Drive and Google Drive Indicator launcher icons in your Dash.
+# Click on the Google Drive Indicator to start.
+
+
+
 # terminator
 sudo apt-get install -y terminator
 
 # copy paste terminator
-subl ~/.config/terminator/config
+atom ~/.config/terminator/config
+# append bindings below
 [keybindings]
 	paste = <Control>v
 	copy = <Control>c
@@ -106,7 +160,7 @@ npm install -g bower
 # z
 cd ~
 git clone git@github.com:rupa/z.git .bin/z/
-echo ". /home/`whoami`/.bin/z/z.sh" >> ~/.bashrc
+echo ". /home/`whoami`/.bin/z/z.sh" >> ~/.zshrc
 
 
 
@@ -139,26 +193,5 @@ pip3 install --user virtualenv
 
 # make python virtualenv and start with shell
 ~/.local/bin/virtualenv ~/penv
-echo "source ~/penv/bin/activate" >> ~/.bashrc
+echo "source ~/penv/bin/activate" >> ~/.zshrc
 # restart shell
-
-
-
-# atom
-cd ~/Downloads
-# go to https://atom.io/
-# download latest deb release
-sudo dpkg -i atom-amd64.deb
-
-# atom packages
-apm install atom-terminal
-apm install set-syntax
-apm install autocomplete-plus
-apm install emmet
-apm install atom-alignment
-# python linter
-apm install linter linter-pep8
-pip install pep8
-# add config file
-# pep8ExecutePath: /penv/path/
-apm install tabs-to-spaces
