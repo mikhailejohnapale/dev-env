@@ -118,11 +118,18 @@ Open the following links below and study.
 ## Fork essential repositories
 Login to your Github account at https://github.com. Fork the links below.
 - https://github.com/janmaghuyop/dev-env
+- https://github.com/janmaghuyop/work-collab
+- https://github.com/janmaghuyop/python-exercises
+- https://github.com/janmaghuyop/python-oop
+- https://github.com/janmaghuyop/python-testing
+- https://github.com/janmaghuyop/scrum-exercises
 - https://github.com/janmaghuyop/base-repo
 - https://github.com/janmaghuyop/ubuntu-tweak
 - https://github.com/janmaghuyop/sample-repo
 - https://github.com/janmaghuyop/dotfiles
 - https://github.com/janmaghuyop/oh-my-zsh
+- https://github.com/rodelrebucas/oh-my-zsh
+- https://github.com/janmaghuyop/bushido
 
 
 
