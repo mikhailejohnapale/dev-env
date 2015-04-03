@@ -24,6 +24,7 @@ apm install tabs-to-spaces
 
 
 # zsh, oh-my-zsh
+sudo apt-get install zsh
 # Login to your github account
 # Fork, https://raw.github.com/rodelrebucas/oh-my-zsh
 sudo apt-get install zsh
