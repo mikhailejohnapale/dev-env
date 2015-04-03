@@ -14,7 +14,6 @@
 - https://taiga.io
 - https://www.dropbox.com
 - https://www.heroku.com
-- http://stackoverflow.com
 - http://ubuntuforums.org
 - https://en.gravatar.com
 - https://slack.com
