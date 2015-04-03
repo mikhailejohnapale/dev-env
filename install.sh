@@ -25,15 +25,10 @@ apm install tabs-to-spaces
 
 # zsh, oh-my-zsh
 sudo apt-get install zsh
-# Login to your github account
-# Fork, https://raw.github.com/rodelrebucas/oh-my-zsh
-sudo apt-get install zsh
-cd ~
-# clone your forked repository
-git clone git@github.com:firstnamelastname/oh-my-zsh.git ~/.oh-my-zsh
-chsh -s /bin/zsh
+sudo apt-get install -y curl
+curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 atom ~/.zshrc
-# change ZSH_THEME="rodelys"
+# change ZSH_THEME="ys"
 # restart shell
 
 

@@ -128,7 +128,6 @@ Login to your Github account at https://github.com. Fork the links below.
 - https://github.com/janmaghuyop/sample-repo
 - https://github.com/janmaghuyop/dotfiles
 - https://github.com/janmaghuyop/oh-my-zsh
-- https://github.com/rodelrebucas/oh-my-zsh
 - https://github.com/janmaghuyop/bushido
 
 
