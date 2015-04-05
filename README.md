@@ -108,10 +108,9 @@ Open the following links below and study.
 
 ## Install essential programs
 - Open a terminal.
-- Click and save link below.
-- https://raw.githubusercontent.com/janmaghuyop/dev-env/master/install.sh
-- Using a text editor open install.sh
-- Copy and paste the commands line per line into the terminal and hit enter.
+- Open in a new tab the link below and follow instructions.
+- https://raw.githubusercontent.com/janmaghuyop/dev-env/master/programs.md
+
 
 
 
