@@ -109,7 +109,7 @@ Open the following links below and study.
 ## Install essential programs
 - Open a terminal.
 - Open in a new tab the link below and follow instructions.
-- https://raw.githubusercontent.com/janmaghuyop/dev-env/master/programs.md
+- https://github.com/janmaghuyop/dev-env/blob/master/programs.md
 
 
 
