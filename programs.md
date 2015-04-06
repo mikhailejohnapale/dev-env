@@ -33,6 +33,11 @@ atom ~/.zshrc
 - In .zshrc change ZSH_THEME="ys"
 - Restart the shell to apply configuration.
 
+## Terminal Multiplexer
+- Open a terminal copy and paste the commands below line per line.
+```
+sudo apt-get install -y tmux
+```
 
 
 ## Version Control - Git
@@ -251,3 +256,13 @@ pip install pep8
 pip install colorama
 ```
 - Append in atom config file, `pep8ExecutePath: /penv/path/`
+
+
+## Validate installation
+- Open a terminal copy and paste the commands below line per line.
+```
+cd ~/Downloads
+wget https://raw.githubusercontent.com/janmaghuyop/dev-env/master/check.py
+python check.py
+```
+- Review this procedure if you have failed the test.
