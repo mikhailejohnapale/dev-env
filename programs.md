@@ -248,5 +248,6 @@ echo "source ~/penv/bin/activate" >> ~/.zshrc
 pip install django
 pip install Pillow
 pip install pep8
+pip install colorama
 ```
 - Append in atom config file, `pep8ExecutePath: /penv/path/`
