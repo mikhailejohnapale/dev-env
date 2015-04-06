@@ -18,8 +18,7 @@
 
 ## Download and Install Unetbootin
 ### For ubuntu
-Open the terminal and paste the command below.
-
+- Open a terminal copy and paste the commands below line per line and press enter.
 ```
 sudo apt-get install -y unetbootin
 ```
@@ -81,7 +80,7 @@ sudo apt-get install -y unetbootin
 
 
 ## Update and upgrade
-Open the terminal and paste the command below.
+- Open a terminal copy and paste the commands below line per line and press enter.
 ```
 sudo apt-get update
 sudo apt-get upgrade -y
