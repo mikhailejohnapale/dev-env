@@ -3,6 +3,9 @@
 
 import os
 from colorama import init, Fore
+
+
+# initialize colorama
 init(autoreset=True)
 
 
