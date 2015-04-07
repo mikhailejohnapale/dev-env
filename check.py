@@ -48,7 +48,7 @@ apps = [
 passed = 0
 failed = 0
 
-print('{0:30} {1:55} {2:25} {3}'.format('Application', 'Path', 'Version', 'Status'))
+print('{0:30} {1:55} {2:20} {3}'.format('Application', 'Path', 'Version', 'Status'))
 
 # check paths
 for app in apps:
@@ -69,7 +69,7 @@ for app in apps:
     else:
         status = Fore.RED + 'FAILED'
         failed += 1
-    print('{0:30} {1:55} {2:25} {3:}'.format(name, path, ver_no, status))
+    print('{0:30} {1:55} {2:20} {3}'.format(name, path, ver_no, status))
 
 
 # stats
