@@ -56,14 +56,12 @@ for app in apps:
     path = app[1]
     cmd  = app[2]
 
-    if cmd == '':
-        ver_no = ''
-    else:
-        byte = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT, close_fds=True)
-        byte_ver = byte.stdout.read()
-        ver_no = re.search(r'[0-9]*\.[0-9]*\.[0-9]*|[0-9]*\.[0-9]*', str(byte_ver)).group()
-
+    ver_no = ''
     if os.path.exists(path):
+        if cmd != '':
+            byte = Popen(cmd, shell=True, stdin=PIPE, stdout=PIPE, stderr=STDOUT, close_fds=True)
+            byte_ver = byte.stdout.read()
+            ver_no = re.search(r'[0-9]*\.[0-9]*\.[0-9]*|[0-9]*\.[0-9]*', str(byte_ver)).group()
         status = Fore.GREEN + 'PASSED'
         passed += 1
     else:
