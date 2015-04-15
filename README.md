@@ -70,6 +70,7 @@ sudo apt-get install -y unetbootin
 - http://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 - http://www.wikihow.com/Install-Ubuntu-Linux
 - http://www.dedoimedo.com/computers/gparted.html
+- http://www.everydaylinuxuser.com/2014/05/install-ubuntu-1404-alongside-windows.html
 
 
 
