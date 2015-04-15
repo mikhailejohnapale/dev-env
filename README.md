@@ -116,9 +116,11 @@ Open the following links below and study.
 
 ## Fork essential repositories
 Login to your Github account at https://github.com. Fork the links below.
+- https://github.com/janmaghuyop/code-of-conduct
 - https://github.com/janmaghuyop/dev-env
 - https://github.com/janmaghuyop/work-collab
 - https://github.com/janmaghuyop/python-exercises
+- https://github.com/janmaghuyop/python-fundamentals
 - https://github.com/janmaghuyop/python-oop
 - https://github.com/janmaghuyop/python-testing
 - https://github.com/janmaghuyop/scrum-exercises
