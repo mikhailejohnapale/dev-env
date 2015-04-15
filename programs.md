@@ -16,7 +16,6 @@ apm install atom-terminal
 apm install set-syntax
 apm install autocomplete-plus
 apm install emmet
-apm install atom-alignment
 apm install linter linter-pep8
 apm install tabs-to-spaces
 ```
@@ -28,6 +27,8 @@ apm install tabs-to-spaces
 sudo apt-get install -y zsh
 sudo apt-get install -y curl
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+sudo chsh -s `which zsh`
+sudo reboot
 atom ~/.zshrc
 ```
 - In .zshrc change ZSH_THEME="ys"
