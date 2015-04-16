@@ -186,12 +186,13 @@ echo "source ~/.nvm/nvm.sh" >> ~/.zshrc
 - Open a terminal copy and paste the commands below line per line and press enter.
 ```
 nvm ls-remote
-nvm install 0.12.0
-nvm alias default v0.12.0
+nvm install 0.12.2
+nvm alias default v0.12.2
 ```
 
 
 ## Bower
+- Take note that nodejs is required prior to installing bower
 - Open a terminal copy and paste the commands below line per line and press enter.
 ```
 npm install -g bower
